@@ -1,9 +1,9 @@
 const name = "Tarun"
 const repoCount = 50
 
-// console.log(name + Count + " Value");
+// console.log(name + repoCount + " Value");
 
-console.log(`Hello my name is ${name} and my repo count is ${Count}`);
+console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
 const gameName = new String('tarun-hc-com')
 
