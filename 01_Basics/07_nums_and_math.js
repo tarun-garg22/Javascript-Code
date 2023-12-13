@@ -3,8 +3,10 @@ const score = 400;
 
 const balance = new Number (399);
 // console.log(balance);
-
-// console.log(balance.toString().length);
+// const new_balance  = String(balance)
+// console.log(new_balance.length);
+// methods
+// console.log(balance.toString().length)
 // console.log(balance.toFixed(2));
 
 
@@ -14,7 +16,8 @@ const other_Number = 23.789;
 
 const hundred = 10000;
 // console.log(hundred.toLocaleString('en-IN'));
-// console.log(Number.MAX_SAFE_INTEGER)
+// console.log(Number.MAX_SAFE_INTEGER);
+// console.log(Number.EPSILON)
 
 
 // ++++++++++++++++++++++++++++++++++++Math++++++++++++++++++++++++
@@ -27,10 +30,14 @@ const hundred = 10000;
 // console.log(Math.min(4,67,7,6));
 // console.log(Math.max(4,67,7,6));
 
-console.log(Math.random());
-console.log((Math.random()*10) + 1)
+// console.log(Math.random());
+// console.log((Math.random()*10) + 1)
 
-const  min =10;
-const max =20;
+// dice value
+const min = 1;
+const max = 6;
+console.log(Math.floor(Math.random()*(max-min + 1)+ min))
+// const  min =10;
+// const max =20;
 
-console.log(Math.floor(Math.random() * (max-min + 1)) + min)
+// console.log(Math.floor(Math.random() * (max-min + 1)) + min)
