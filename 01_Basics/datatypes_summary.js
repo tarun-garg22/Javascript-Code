@@ -50,3 +50,27 @@ console.log(typeof bigNumber)
 // Array --> Object
 // Object --> Object
 // Function --> objectFunctions
+
+// +++++++++++++++++++++++++++++++++++++ Memory +++++++++++++++++
+
+// Stack (Primitive) , Heap (Non- Primitive)
+// if memory allocated in Stack then we can get a copy of value 
+// if memory allocated in Heap then we can get a reference of value
+
+let youtube_name = "Tarun@google.com"
+
+let another_Name = youtube_name
+another_Name= "garg@google.com";
+console.log(another_Name);
+console.log(youtube_name);
+
+let User_one = {
+    name:"Tarungarg",
+    email:"tarungarg@89"
+}
+let user_two = User_one;
+user_two.email = "garg567";
+
+console.log(User_one);
+console.log(user_two)
+

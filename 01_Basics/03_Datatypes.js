@@ -10,10 +10,10 @@ let state  = null;
 
 // Primitive data types
 
-//  number => to power 53;
+// number => to power 53;
 // biginit
 // string =>""
-//  boolean => true/false
+// boolean => true/false
 // null => standalone
 // undefined => abhi value assign nahi hai
 // symbol => uniqueness

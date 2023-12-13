@@ -60,13 +60,21 @@ let str3 = str1 +  str2
 
 // console.log((3+4)*4%3);
 // 1
-// console.log(+true)
+console.log(+true)
 // error
 // console.log(true+)
 // 0
-// console.log(+"")
+console.log("")
 
 let num1 , num2 , num3;
 
 
+let gamecounter =  100;
+gamecounter++;
+console.log(gamecounter);
 
+// Prefix and postfix operator
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
