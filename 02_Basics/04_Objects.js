@@ -69,4 +69,32 @@ const Users  = [
 
 // console.log(Object.values(tinder_User));
 // console.log(Object.entries(tinder_User));
-console.log(regular_User.hasOwnProperty('fullname'));
+// console.log(regular_User.hasOwnProperty('fullname'));
+
+// Destructuring og objects
+
+const course  = {
+    coursename : "js in hindi",
+    price : 1999,
+    courseInstructor :"Tarun"
+}
+
+// couse.courseInstructor
+
+const {courseInstructor:instructor} = course
+// console.log(courseInstructor);
+console.log(instructor);
+
+// json --> javascript object notation
+// {
+//     "name":"Tarun";
+//     "coursename":"js in hindi";
+//     "price"
+// }
+
+
+[
+    {},
+    {},
+    {}
+]
